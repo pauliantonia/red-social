@@ -50,9 +50,78 @@
         </div>
         <div class="form-group">
           <div class="col-sm-offset-2 col-sm-10">
-            <button type="submit" class="btn btn-primary">Registrarse</button>
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target=".bd-example-modal-lg">Registrarse</button>
+            
+            <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+              <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                   <div class="modal-header" id="modal-header">
+                     <div class="row">
+                       <div class="col-xs-12 col-sm-12 col-md-10 col-lg-11">
+                        <h4>Registro</h4>
+                        <ul class="nav nav-pills">
+                            <li role="presentation"Z><button type="button" class="btn btn-primary">Paso 1</button></li>
+                            <li role="presentation"><button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">Paso 2</button></li>
+                            <li role="presentation"Z><button type="button" class="btn btn-primary">Paso 3</button></li>
+                        </ul>
+                       </div>
+                     </div>                       
+                    </div>
+
+                    <div class="modal-body">
+                      <div class="row">
+                        <div class="col-xs-4 col-sm-4 col-md-4 col-lg-6">
+                          <img src="assets/img/profile.png" class="profile_img" data-toggle="modal" data-target=".bd-example-modal-lg">
+                          <button type="button" class="btn btn-primary" id="btn_profile">Agrega foto</button>
+                        </div>
+                        <div class="col-xs-8 col-sm-8 col-md-8 col-lg-6">
+                          <div class="input-group">
+                            <input type="text" class="form-control" id="register_input" placeholder="Nombre de usuario" aria-describedby="basic-addon1">
+                            <input type="text" class="form-control" id="register_input" placeholder="Correo electrónico" aria-describedby="basic-addon1">
+                            <input type="text" class="form-control" id="register_input" placeholder="Contraseña" aria-describedby="basic-addon1">
+                          </div>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                          <h5><b>Selecciona los estilos de tatuajes que te interesan</b></h5>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 option1">
+                          <ul>
+                            <li><input class="option" type="radio">Realismo</li>
+                            <li><input class="option" type="radio">Geométrico</li>
+                            <li><input class="option" type="radio">Puntillismo</li>
+                            <li><input class="option" type="radio">Hiperrealismo</li>
+                            <li><input class="option" type="radio">Surrealismo</li>
+                            <li><input class="option" type="radio">Acuarela</li>
+                          </ul>                  
+                        </div>
+                        <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 option1">
+                            <ul>
+                              <li><input class="option" type="radio">Old school</li>
+                              <li><input class="option" type="radio">Neotradicional</li>
+                              <li><input class="option" type="radio">New school</li>
+                              <li><input class="option" type="radio">Japonés</li>
+                              <li><input class="option" type="radio">Celta/polinesio</li>
+                              <li><input class="option" type="radio">Bosquejo</li>
+                            </ul>                  
+                        </div>                        
+                      </div>
+
+                    </div>
+                    
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                      <button type="button" class="btn btn-primary">Siguiente</button>
+                    </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
+        
       </form>  
     </section>
   

@@ -24,6 +24,11 @@
 	background-size: cover;
 }
 
+a {
+	color: #E2E2E2;
+	text-decoration: none;
+}
+
 .main_text{
 	width: 60%;
 	padding-top: 25vh;
@@ -45,9 +50,29 @@ label{
 }
 
 
+/*MODAL REGISTER*/
+.profile_img {
+	width: 120%;
+	border-radius: 50px;
+}
 
+#register_input {
+	margin-bottom: 10%;
+}
 
+ul {
+	list-style: none;
+	padding: 0;
+}
 
+.option {
+	margin-right: 10%;
+}
+
+.option1 {
+	text-align: left;
+    padding-left: 35px;
+}
 
 
 
