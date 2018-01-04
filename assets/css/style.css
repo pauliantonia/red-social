@@ -53,11 +53,11 @@ label{
 /*MODAL REGISTER*/
 .profile_img {
 	width: 120%;
-	border-radius: 50px;
+	border-radius: 80px;
 }
 
 #register_input {
-	margin-bottom: 10%;
+	margin-bottom: 5%;
 }
 
 ul {
@@ -65,7 +65,7 @@ ul {
 	padding: 0;
 }
 
-.option {
+option {
 	margin-right: 10%;
 }
 
@@ -76,7 +76,139 @@ ul {
 
 
 
+/*HOMEPAGE /inicio */
+/*.body_homepage {
+	background-image: url("../img/dos.png");
+}*/
+
+.navbar-inverse{
+	border-radius: 0;
+}
+
+.logo {
+	font-family: 'New Rocker', cursive;
+	color: #cda349;
+
+}
+
+.profile_homepage{
+	width: 25%;
+	border-radius: 100%;
+	margin-top: 5%;
+	margin-left: 50%;
+}
+
+#input_search {
+	margin-top: 9%;
+}
+
+#btn_search {
+	margin-bottom: 3%;
+	margin-left: 1%;
+	margin-top: 9%;
+}
+
+#btn_tattoo {
+	margin-top: 9%;
+}
+
+.profile_homepage2 {
+	width: 5%;
+	border-radius: 100%;
+	margin-bottom: 15%;
+	margin-right: 1%;
+	margin-left: 4%;
+}
+
+textarea {
+	resize: none;
+}
+
+.container_comment {
+	text-align: center;
+	/*margin-left: 20%;*/
+}
+
+.megan {
+	width: 25%;
+	border-radius: 100%;
+	margin-left: 80%;
+}
+
+.icons {
+	padding-left: 55%;
+	margin-top: 1%;
+	margin-bottom: 7%;
+}
+
+i {
+	width: 12%;
+}
+
+.tattoer {
+	border-radius: 100%;
+	width: 30%;
+	margin-left: 75%;
+}
+
+.tattoo_tomas {
+	width: 80%;
+	margin-right: 40%;
+}
+
+.comments {
+	width: 50%;
+	margin: 2% 0% 5% 25%;
+	/*border: 1px solid grey;*/
+}
 
 
+/*TATUADORES*/
+.filter{
+	text-align: center;
+}
 
+.btn-circle {
+	width: 30%;
+	height: 100px;
+	border-radius: 100%;
+	margin-left: 5%;
+	margin-top: 5%;
+	margin-bottom: 2%;
+	/*background-image: url("../img/tattoo.png"); prueba para ver si se podia poner una imagen*/
+}
 
+.btn-circle:hover {
+	background-color: black;
+}
+
+#style_left{
+	margin-left: 15%;
+}
+
+.megan_tattoer {
+	width: 100%;
+	margin-top: 5%;
+ }
+
+.matias_tattoer {
+	width: 125%;
+	margin-top: 5%;
+	margin-bottom: 5%;
+}
+
+/*PROFILE TATTOER/ PERFIL TATUADOR*/
+.profile-megan{
+	margin-top: 5%;
+}
+
+.megan_profile {
+	border-radius: 100%;
+	width: 50%;
+	margin: 5% 0% 5% 50%;
+}
+
+.img_tattoo {
+	width: 100%;
+	margin: 5% 0% 5% 20%;
+}
