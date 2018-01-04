@@ -197,16 +197,23 @@ i {
 
 /*PROFILE TATTOER/ PERFIL TATUADOR*/
 .profile-megan{
-	margin-top: 5%;
+	width: 70%;
+	margin-left: 10%;
 }
 
 .megan_profile {
 	border-radius: 100%;
-	width: 50%;
-	margin: 5% 0% 5% 50%;
+	width: 180%;
+	margin: 45% 0% 5% 5%;
 }
 
-.img_tattoo {
-	width: 100%;
-	margin: 5% 0% 5% 20%;
+.name_tattoer{
+	font-size: 120%;
+}
+.options_tattoer {
+	font-size: 100%;
+}
+
+.img_tatto {
+	width: 24%;
 }
