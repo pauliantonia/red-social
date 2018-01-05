@@ -13,6 +13,7 @@
 	position: absolute;
 	z-index: 1;
 	background-size: cover;
+
 }
 .back{
 	background-image: url(../img/dos.png);
@@ -29,6 +30,7 @@
 	max-width: 100%;
 	padding-bottom: 140vh;
 	text-align: center;
+	;
 }
 .second_logo{
 	width: 60%;
@@ -41,7 +43,7 @@
 	color: white;
 	font-size: 106%;
 }
-.btn , .btn_a{
+.btn{
 	background-color: #cda349;
 	border:none;
 }
@@ -51,11 +53,7 @@
 	width: 120%;
 	border-radius: 80px;
 }
-#btn_profile{
-	margin-left:16%;
-	margin-top:11%;
-	margin-bottom: 10%;
-}
+
 #register_input {
 	margin-bottom: 5%;
 }
@@ -67,6 +65,8 @@ option {
 	margin-right: 10%;
 }
 .option1 {
+	text-align: left;
+    padding-left: 35px;
 }
 .step_two{
 	display: none;
@@ -77,33 +77,12 @@ option {
 #btn_step_three{
 	display: none;
 }
-#estilos{
-	width: 100%;
-}
-.tattoo img{
-	outline: 1px solid pink;
-}
-.main_content{
-	text-align: center;
-}
-.step_two img{
-	width: 69vh;
-}
-.step_two span{
-	display: block;
-}
-.step_two span:nth-child(0n+2){
-	font-weight: bold;
-}
-.btn:hover{
-	background-color: black;
-	color: white;
-}
-.btn:visited{
-	background-color: #cda349;
-}
+
+
+
 
 /*HOMEPAGE /inicio */
+
 
 .navbar-inverse{
 	border-radius: 0;
@@ -112,36 +91,24 @@ option {
 .logo_letter {
 	font-family: 'New Rocker', cursive;
 	color: #cda349;
+
 }
 
 .profile_homepage{
 	width: 25%;
 	border-radius: 100%;
 	margin-top: 5%;
+	margin-left: 50%;
 }
 
 #input_search {
 	margin-top: 9%;
 }
 
-#btn_search {
+#btn_search , #btn_photo {
 	margin-bottom: 3%;
 	margin-left: 1%;
 	margin-top: 9%;
-}
-#btn_ad{
-	color: white;
-	margin-bottom:4%;
-	margin-top:3vh;
-
-}
-#btn_photo{
-	margin-left: %;
-	margin-top: 3vh;
-	margin-bottom: 3vh;
-}
-#btn_ad:hover , #btn_photo:hover , .btn_a:hover{
-	background-color: #000;
 }
 
 #btn_tattoo {
@@ -150,45 +117,47 @@ option {
 #btn_tattoo a , #btn_search , #btn_photo{
 	color: white;
 }
-#btn_tattoo a:hover , #btn_search:hover {
+#btn_tattoo a:hover , #btn_search:hover{
 	color: #9F9F9F;
 	text-decoration: none;
 }
+
 .profile_homepage2 {
 	width: 5%;
 	border-radius: 100%;
 	margin-bottom: 15%;
 	margin-right: 1%;
-	margin-left: 4%;	
+	margin-left: 4%;
 }
+
 textarea {
 	resize: none;
-    width: 99%;
-    border: none;
-    margin-top: 3%;
-    padding-left: 3%;
-    border-radius: 12px;
 }
+
 .container_comment {
 	text-align: center;
-	margin-left: 5%;
+	/*margin-left: 20%;*/
 }
+
 .megan {
 	width: 25%;
 	border-radius: 100%;
-	margin-left: 
-	margin-bottom: 2vh;
+	margin-left: 80%;
 }
+
 .icons {
+	padding-left: 55%;
 	margin-top: 1%;
 	margin-bottom: 7%;
 }
+
 i {
 	width: 12%;
 }
 a{
 	text-decoration: none;
 }
+
 .tattoer {
 	border-radius: 100%;
 	width: 30%;
@@ -196,59 +165,48 @@ a{
 }
 
 .tattoo_tomas {
-	width: 100%;
+	width: 80%;
 	margin-right: 40%;
 }
 
 .comments {
-	background-color: #EEEEEE;
-	border-radius: 13px;
-	margin-top:2%;
-	margin-bottom: 2%;
+	width: 50%;
+	margin: 2% 0% 5% 25%;
+	/*border: 1px solid grey;*/
 }
 .new-ima img{
-	margin-bottom:5%;
-	max-width: 104%;
+	width: 50%;
 }
-.tuit {
-	padding: 5%;
-}
-.base{
-	background-color: #EEEEEE;
-	max-width: 100%;
-	border-radius: 13px;
-	margin-left: 1%;
-	height: auto;
-}
-.input_image{
-	margin-top: 4vh;
-	border-radius: 13px;
-	border-radius: 4px;
-	border:none;
-}
+
 
 /*TATUADORES*/
 .filter{
 	text-align: center;
 }
+
 .btn-circle {
-  width: 15vh;
-  height:15vh;
-  padding: 10px 16px;
-  font-size: 100%;
+  width: 18vh;
+  height:19vh;
+  padding: 10px 1px;
+  font-size: 90%;
   line-height: 1.33;
   border-radius: 63px;
+
 }
+
 .btn-circle:hover {
 	background-color: black;
 }
+
 #style_left{
 	margin-left: 15%;
 }
+
 .megan_tattoer {
 	width: 100%;
 	margin-top: 5%;
-}
+ }
+
 .matias_tattoer {
 	width: 125%;
 	margin-top: 5%;
@@ -260,17 +218,23 @@ a{
 	width: 70%;
 	margin-left: 10%;
 }
+
 .megan_profile {
 	border-radius: 100%;
 	width: 180%;
-	margin: 5% 0% 5% 5%;
+	margin: 45% 0% 5% 5%;
 }
+
 .name_tattoer{
 	font-size: 120%;
 }
 .options_tattoer {
 	font-size: 100%;
 }
+
 .img_tatto {
 	width: 24%;
+}
+.tattoers{
+	padding: 0;
 }

@@ -31,10 +31,17 @@ window.onload = function() {
         }
     }
 }
-
-
-
-
+// código para mostrar contenedor al publicar
 $('#btn_search').click(function(){
     $('.comments').show();
 });
+
+//Código para Agregar imagen
+$("#btn_photo").on("click",function(){
+  // rescatando iamgen
+  var contIma = $(".input_image").val();
+
+  $('.new-ima').append("<img class='ima' src='"
+  + contIma + "'>");
+});
+
