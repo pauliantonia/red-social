@@ -31,3 +31,10 @@ window.onload = function() {
         }
     }
 }
+
+
+
+
+$('#btn_search').click(function(){
+    $('.comments').show();
+});
